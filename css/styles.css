@@ -1,0 +1,53 @@
+row-header{
+    margin:0px auto;
+    padding:0px;
+}
+.row-content{
+    margin:0px auto;
+    padding:50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD;
+    color:floralwhite;
+}
+address{
+    font-size: 80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+#Reserve_form
+{
+    position:fixed;/*To make the form position fixed*/
+    left:0;/*Set to left alignment zero*/
+    top:0;/*Set to top alignment zero*/
+    background-color: rgba(0, 0, 0, 0.4); /*Make the background*/
+    pointer-events: none;/*Disable the pointer events*/
+    display: none;/*Make the form invisible*/
+}
+#Reserve_form.active{
+    display: all;/*Make visible when button is clicked*/
+    pointer-events: all;/*Enable the pointer events*/
+}
+.close
+{
+    font-weight: bold;
+    float: right;
+    font-size: 28px;
+    color: #aaa;
+ }
+.close:hover,
+.close:focus
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
